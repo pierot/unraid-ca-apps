@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mailgun_logger</Name>
+  <Repository>jackjoe/mailgun_logger</Repository>
+  <Registry>https://hub.docker.com/r/jackjoe/mailgun_logger</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/jackjoe/mailgun_logger/issues</Support>
+  <Project>https://github.com/jackjoe/mailgun_logger</Project>
+  <Overview>Simple Mailgun persistence in Phoenix/Elixir.</Overview>
+  <Category>Backup, Cloud, Tools:Utilities, Other</Category>
+  <WebUI>http://[IP]:[PORT:5050]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/jackjoe/mailgun_logger/master/public/logo.png</Icon>
+  <Description>MailgunLogger is a simple admin tool that uses the Mailgun API to retrieves events on a regular basis from Mailgun - who only provide a limited time of event storage - and stores them inside a MySQL database.</Description>
+  <Config Name="ML_DB_USER" Target="ML_DB_USER" Default="" Mode="" Description="Container Variable: Database user" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ML_DB_PASSWORD" Target="ML_DB_PASSWORD" Default="" Mode="" Description="Container Variable: Database password" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ML_DB_NAME" Target="ML_DB_NAME" Default="" Mode="" Description="Container Variable: Database name" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ML_DB_HOST" Target="ML_DB_HOST" Default="" Mode="" Description="Container Variable: Database host" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Port" Target="5050" Default="5050" Mode="tcp" Description="Container Port: 5050" Type="Port" Display="always" Required="false" Mask="false">5050</Config>
+</Container>
