@@ -7,8 +7,8 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/119391-support-mailgun-logger/</Support>
   <Project>https://github.com/jackjoe/mailgun_logger</Project>
-  <Overview>Simple Mailgun persistence in Phoenix/Elixir.</Overview>
-  <Category>Backup, Cloud, Tools:Utilities, Other</Category>
+  <Overview>MailgunLogger is a simple admin tool that uses the Mailgun API to retrieves events on a regular basis from Mailgun - who only provide a limited time of event storage - and stores them inside a MySQL database.</Overview>
+  <Category>Backup: Cloud: Tools:Utilities, Other</Category>
   <WebUI>http://[IP]:[PORT:5050]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/jackjoe/mailgun_logger/master/public/logo.png</Icon>
