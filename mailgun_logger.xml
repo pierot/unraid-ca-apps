@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/jackjoe/mailgun_logger</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/jackjoe/mailgun_logger/issues</Support>
+  <Support>https://forums.unraid.net/topic/119391-support-mailgun-logger/</Support>
   <Project>https://github.com/jackjoe/mailgun_logger</Project>
   <Overview>Simple Mailgun persistence in Phoenix/Elixir.</Overview>
   <Category>Backup, Cloud, Tools:Utilities, Other</Category>
